@@ -1,0 +1,1211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 
+    ========================================
+    PLACEHOLDER INSTRUCTIONS FOR LINKS
+    ========================================
+    
+    🔗 SOCIAL MEDIA LINKS TO UPDATE:
+    Replace these placeholders with your actual links:
+    
+    📱 LinkedIn: Replace "YOUR_LINKEDIN_USERNAME" with your LinkedIn username
+    Example: https://www.linkedin.com/in/flourencia-yuwono
+    
+    💻 GitHub: Replace "YOUR_GITHUB_USERNAME" with your GitHub username  
+    Example: https://github.com/flourencia-yuwono
+    
+     Instagram: Replace "YOUR_INSTAGRAM_USERNAME" with your Instagram username
+    Example: https://www.instagram.com/flourencia.dev
+    
+    🎨 Dribbble: Replace "YOUR_DRIBBBLE_USERNAME" with your Dribbble username
+    Example: https://dribbble.com/flourencia
+    
+    📂 PROJECT LINKS TO UPDATE:
+    Replace these placeholders in the Projects section:
+    
+    Project 1 (E-Commerce):
+    - YOUR_PROJECT_1_LIVE_DEMO_URL → Your deployed project URL
+    - YOUR_PROJECT_1_GITHUB_URL → Your GitHub repository URL
+    
+    Project 2 (Task Manager):
+    - YOUR_PROJECT_2_LIVE_DEMO_URL → Your deployed project URL
+    - YOUR_PROJECT_2_GITHUB_URL → Your GitHub repository URL
+    
+    Project 3 (Analytics Dashboard):
+    - YOUR_PROJECT_3_LIVE_DEMO_URL → Your deployed project URL
+    - YOUR_PROJECT_3_GITHUB_URL → Your GitHub repository URL
+    
+    Project 4 (Brand Identity):
+    - YOUR_PROJECT_4_LIVE_DEMO_URL → Your portfolio/demo URL
+    - YOUR_PROJECT_4_DESIGN_FILES_URL → Your Figma/design files URL
+    
+    🔍 HOW TO UPDATE:
+    1. Use Ctrl+F (Find) in your editor
+    2. Search for the placeholder text (e.g., "YOUR_GITHUB_USERNAME")
+    3. Replace with your actual username/URL
+    4. Repeat for all placeholders
+    
+    ========================================
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flourencia Calista Octavia Yuwono - Full-Stack Developer</title>
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="preload" href="./files/Flourencia Calista Octavia Yuwono 3.jpg" as="image">
+    
+    <!-- Critical CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Fully async external resources - load after page render -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Load these after initial render -->
+    <script>
+        setTimeout(() => {
+            const fonts = document.createElement('link');
+            fonts.rel = 'stylesheet';
+            fonts.href = 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap';
+            document.head.appendChild(fonts);
+            
+            const icons = document.createElement('link');
+            icons.rel = 'stylesheet';
+            icons.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css';
+            document.head.appendChild(icons);
+            
+            const aos = document.createElement('link');
+            aos.rel = 'stylesheet';
+            aos.href = 'https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css';
+            document.head.appendChild(aos);
+        }, 100);
+    </script>
+</head>
+<body>
+    <!-- Quick fade-in for better perceived performance -->
+    <style>
+        body { opacity: 0; transition: opacity 0.3s ease; }
+        body.loaded { opacity: 1; }
+    </style>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo" data-aos="fade-right">
+                <a href="#home">
+                    <span class="logo-icon">✦</span>
+                    <span class="logo-text">Portfolio</span>
+                </a>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item" data-aos="fade-down" data-aos-delay="100">
+                    <a href="#home" class="nav-link">
+                        <span class="nav-text">Home</span>
+                        <span class="nav-indicator"></span>
+                    </a>
+                </li>
+                <li class="nav-item" data-aos="fade-down" data-aos-delay="200">
+                    <a href="#about" class="nav-link">
+                        <span class="nav-text">About</span>
+                        <span class="nav-indicator"></span>
+                    </a>
+                </li>
+                <li class="nav-item" data-aos="fade-down" data-aos-delay="250">
+                    <a href="#experience" class="nav-link">
+                        <span class="nav-text">Experience</span>
+                        <span class="nav-indicator"></span>
+                    </a>
+                </li>
+                <li class="nav-item" data-aos="fade-down" data-aos-delay="300">
+                    <a href="#education" class="nav-link">
+                        <span class="nav-text">Education</span>
+                        <span class="nav-indicator"></span>
+                    </a>
+                </li>
+                <li class="nav-item" data-aos="fade-down" data-aos-delay="350">
+                    <a href="#projects" class="nav-link">
+                        <span class="nav-text">Projects</span>
+                        <span class="nav-indicator"></span>
+                    </a>
+                </li>
+                <li class="nav-item" data-aos="fade-down" data-aos-delay="400">
+                    <a href="#contact" class="nav-link">
+                        <span class="nav-text">Contact</span>
+                        <span class="nav-indicator"></span>
+                    </a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="nav-toggle" data-aos="fade-left">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </div>
+        </div>
+        <div class="nav-bg-blur"></div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="hero-greeting">
+                        <span class="greeting-emoji">👋</span>
+                        <span class="greeting-text">Hello, I'm Flouren</span>
+                    </div>
+                    <h1 class="hero-title">
+                        <span class="title-line">
+                            <span class="text-gradient animate-gradient">Flourencia Calista Octavia Yuwono</span>
+                        </span>
+                    </h1>
+                    <div class="hero-subtitle-container">
+                        <span class="subtitle-prefix">I'm a </span>
+                        <span class="hero-subtitle">Full-Stack Developer</span>
+                    </div>
+                    <p class="hero-description">
+                        Computer Science student at Bina Nusantara University with a strong foundation in programming, problem-solving, and analytical thinking. Experienced in organizational activities, demonstrating leadership, collaboration, and adaptability. Enthusiastic, disciplined, and responsible individual eager to apply technical and soft skills to contribute effectively in academic and professional settings.
+
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary btn-glow">
+                            <span class="btn-text">View My Work</span>
+                            <span class="btn-icon">
+                                <i class="fas fa-arrow-right"></i>
+                            </span>
+                        </a>
+                        <a href="./files/CV.html" class="btn btn-secondary btn-magnetic" download="Flourencia_CV.html" target="_blank">
+                            <span class="btn-text">Download CV</span>
+                            <span class="btn-icon download-icon">
+                                <i class="fas fa-download"></i>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="hero-social">
+                        <a href="https://www.linkedin.com/in/flourencia-yuwono-775554289" class="social-icon" data-tooltip="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/Flourenciacoy" class="social-icon" data-tooltip="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.instagram.com/flouclsta_?igsh=ZXM1b3BlMHA5YXB3" class="social-icon" data-tooltip="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="hero-image-container">
+                        <div class="hero-image">
+                            <div class="image-container">
+                                <img src="./files/Flourencia Calista Octavia Yuwono 3.jpg" 
+                                     alt="Flourencia Calista Octavia Yuwono - Full-Stack Developer" 
+                                     class="profile-image"
+                                     loading="eager"
+                                     decoding="async"
+                                     fetchpriority="high">
+                                <div class="profile-glow"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-particles" id="particles-hero"></div>
+        <div class="hero-bg-elements">
+            <div class="bg-shape bg-shape-1"></div>
+            <div class="bg-shape bg-shape-2"></div>
+            <div class="bg-shape bg-shape-3"></div>
+            <div class="bg-shape bg-shape-4"></div>
+        </div>
+        <div class="scroll-indicator" data-aos="fade-up" data-aos-delay="1500">
+            <div class="scroll-text">Scroll Down</div>
+            <div class="scroll-arrow">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-tag">Get to know me</div>
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Passionate developer crafting digital experiences</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right" data-aos-delay="200">
+                    <div class="about-card glass-card">
+                        <div class="card-header">
+                            <h3>My Story</h3>
+                            <div class="card-icon">
+                                <i class="fas fa-user-graduate"></i>
+                            </div>
+                        </div>
+                        <p>
+                           I found a deep connection in the precise logic of code as a dedicated Computer Science student at Bina Nusantara University. 
+                           With a strong foundation in programming, problem-solving, and analytical thinking, I didn't just passively absorb knowledge; I actively engineered solutions. 
+                           Whether it was optimizing an algorithm late at night or architecting a challenging software project, I approached every technical hurdle with a disciplined focus and an enthusiastic drive. 
+                           This commitment to technical excellence established me as a reliable and responsible peer—the one everyone turned to when the complexity of the digital world threatened to overwhelm a project.
+                        </p>
+                        <p>
+                            However, my influence extended far beyond the terminal screen. 
+                            Through involvement in organizational activities, I cultivated powerful soft skills, demonstrating innate leadership, collaboration, and adaptability. 
+                            During high-stakes university events, I seamlessly transitioned from technical expert to team leader, quickly assessing challenges with an analytical mind and implementing solutions that kept projects on track. 
+                            This unique ability to marry technical mastery with effective interpersonal skills makes me a complete professional—eager to apply both my technical blueprints and collaborative spirit to contribute effectively in any academic or professional setting.
+                        </p>
+                    </div>
+                    
+                    <div class="skills-section" data-aos="fade-up" data-aos-delay="400">
+                        <h3 class="skills-title">Technical Skills</h3>
+                        <div class="skills-grid">
+                            <div class="skill-category">
+                                <h4>Frontend</h4>
+                                <div class="skill-list">
+                                    <div class="skill-item">
+                                        <i class="fab fa-html5"></i>
+                                        <span>HTML5</span>
+                                    </div>
+                                    <div class="skill-item">
+                                        <i class="fab fa-css3-alt"></i>
+                                        <span>CSS</span>
+                                    </div>
+                                        <div class="skill-item">
+                                        <i class="fab fa-figma"></i>
+                                        <span>Design</span>
+                                    </div>
+                                    <div class="skill-item">
+                                        <i class="fab fa-react"></i>
+                                        <span>React</span>
+                                    </div>
+                                    <div class="skill-item">
+                                        <i class="fab fa-phone"></i>
+                                        <span>Kotlin</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-category">
+                                <h4>Backend & Tools</h4>
+                                <div class="skill-list">
+                                    <div class="skill-item">
+                                        <i class="fab fa-node-js"></i>
+                                        <span>Node.js</span>
+                                    </div>
+                                    <div class="skill-item">
+                                        <i class="fab fa-git-alt"></i>
+                                        <span>Git</span>
+                                    </div>
+                                    <div class="skill-item">
+                                        <i class="fas fa-database"></i>
+                                        <span>MongoDB</span>
+                                    </div>
+                                    <div class="skill-item">
+                                        <i class="fab fa-js-square"></i>
+                                        <span>JavaScript</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-stats" data-aos="fade-left" data-aos-delay="400">
+                    <div class="stats-container">
+                        <div class="stat-card glass-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-project-diagram"></i>
+                            </div>
+                            <div class="stat-content">
+                                <h3 class="stat-number" data-count="50">10</h3>
+                                <p class="stat-label">Projects Completed</p>
+                            </div>
+                            <div class="stat-glow"></div>
+                        </div>
+                        
+                        <div class="stat-card glass-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="stat-content">
+                                <h3 class="stat-number" data-count="3">3</h3>
+                                <p class="stat-label">Years Experience</p>
+                            </div>
+                            <div class="stat-glow"></div>
+                        </div>
+                        
+                        <div class="stat-card glass-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <div class="stat-content">
+                                <h3 class="stat-number" data-count="100">3.9</h3>
+                                <p class="stat-label">IPK</p>
+                            </div>
+                            <div class="stat-glow"></div>
+                        </div>
+                        
+                        <div class="stat-card glass-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                            <div class="stat-content">
+                                <h3 class="stat-number" data-count="15">4</h3>
+                                <p class="stat-label">Job Experience</p>
+                            </div>
+                            <div class="stat-glow"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-particles"></div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience" id="experience">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-tag">My Journey</div>
+                <h2 class="section-title">Work Experience</h2>
+                <p class="section-subtitle">Professional experiences that shaped my career</p>
+            </div>
+            
+            <div class="timeline" data-aos="fade-up" data-aos-delay="200">
+                <!-- Experience Item 1 -->
+                <div class="timeline-item" data-aos="fade-right" data-aos-delay="100">
+                    <div class="timeline-marker">
+                        <div class="timeline-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                    </div>
+                    <div class="timeline-content glass-card">
+                        <div class="timeline-header">
+                            <div class="timeline-meta">
+                                <span class="timeline-date">2024 - Present</span>
+                                <span class="timeline-type">Part-Time</span>
+                            </div>
+                            <div class="timeline-company">
+                                <h3>Binus University</h3>
+                                <p class="company-location">Malang, Indonesia</p>
+                            </div>
+                        </div>
+                        <h4 class="timeline-position">Teaching Assistant</h4>
+                        <p class="timeline-description">
+                            I serve as a full teaching role and an assistant who helps the lecturer. The courses I teach are Data Structure, Scientific Computing, Human Computer Interaction. 
+                            Many things I can gain, starting from teaching experience, communication, public speaking, and collaboration with others.
+                        </p>
+                        <div class="timeline-skills">
+                            <span class="skill-tag">C</span>
+                            <span class="skill-tag">Database</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Data Structre</span>
+                            <span class="skill-tag">Computer Network</span>
+                        </div>
+                        <div class="timeline-achievements">
+                            <div class="achievement">
+                                <i class="fas fa-teacher"></i>
+                                <span>Social Skills Development And Collaboration Teaching</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience Item 2 -->
+                <div class="timeline-item" data-aos="fade-left" data-aos-delay="200">
+                    <div class="timeline-marker">
+                        <div class="timeline-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                    </div>
+                    <div class="timeline-content glass-card">
+                        <div class="timeline-header">
+                            <div class="timeline-meta">
+                                <span class="timeline-date">2025 - present</span>
+                                <span class="timeline-type">Part-time</span>
+                            </div>
+                            <div class="timeline-company">
+                                <h3>Lecturer</h3>
+                                <p class="company-location">Malang, Indonesia</p>
+                            </div>
+                        </div>
+                        <h4 class="timeline-position">Lecturer Personal Assistant</h4>
+                        <p class="timeline-description">
+                            Processed raw data and prepared it for research and analysis, which involved cleaning, transforming, 
+                            and validating datasets to ensure accuracy and readiness for scholarly inquiry, in addition to creating presentation materials specifically designed to enhance teaching and learning purposes, delivering complex information in an accessible and engaging format.
+                        </p>
+                        <div class="timeline-skills">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Video Editing</span>
+                            <span class="skill-tag">Data Analysis</span>
+                            <span class="skill-tag">Deisgn</span>
+                        </div>
+                        <div class="timeline-achievements">
+                            <div class="achievement">
+                                <i class="fas fa-solid fa-users"></i>
+                                <span>Assisting Lecturer in Data Analysis And Design</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience Item 3 -->
+                <div class="timeline-item" data-aos="fade-right" data-aos-delay="300">
+                    <div class="timeline-marker">
+                        <div class="timeline-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                    </div>
+                    <div class="timeline-content glass-card">
+                        <div class="timeline-header">
+                            <div class="timeline-meta">
+                                <span class="timeline-date">2024 - 2025</span>
+                                <span class="timeline-type">Seasonal</span>
+                            </div>
+                            <div class="timeline-company">
+                                <h3>HIMTI</h3>
+                                <p class="company-location">Onsite</p>
+                            </div>
+                        </div>
+                        <h4 class="timeline-position">Secretary and Treasurer </h4>
+                        <p class="timeline-description">
+                            I serve as the secretary and treasurer of the 2025/2026 administration. 
+                            There are many things I can gain, starting from data processing skills, financial management, creating important documents, teamwork, public speaking, and there are still many things that will help me grow even more in the future.
+                        </p>
+                        <div class="timeline-skills">
+                            <span class="skill-tag">WordPress</span>
+                            <span class="skill-tag">PHP</span>
+                            <span class="skill-tag">MySQL</span>
+                            <span class="skill-tag">UI/UX</span>
+                        </div>
+                        <div class="timeline-achievements">
+                            <div class="achievement">
+                                <i class="fas fa-handshake"></i>
+                                <span>Successfully managed financial records and budgets</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience Item 4 -->
+                <div class="timeline-item" data-aos="fade-left" data-aos-delay="400">
+                    <div class="timeline-marker">
+                        <div class="timeline-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                    </div>
+                    <div class="timeline-content glass-card">
+                        <div class="timeline-header">
+                            <div class="timeline-meta">
+                                <span class="timeline-date">2024 - 2025</span>
+                                <span class="timeline-type">Comunity Service</span>
+                            </div>
+                            <div class="timeline-company">
+                                <h3>BINA NUSANTARA UNIVERSITY</h3>
+                                <p class="company-location">Malang, Indonesia</p>
+                            </div>
+                        </div>
+                        <h4 class="timeline-position">Duta Binusian</h4>
+                        <p class="timeline-description">
+                            Provided support in resolving academic issues faced by students, led exam preparation sessions for mid-term and final assessments targeted at the wider Computer Science student body, 
+                            and delivered both academic guidance and emotional support to help students improve their study strategies.
+                        </p>
+                        <div class="timeline-skills">
+                            <span class="skill-tag">Leadership</span>
+                            <span class="skill-tag">Project Management</span>
+                            <span class="skill-tag">Event Planning</span>
+                            <span class="skill-tag">Public Speaking</span>
+                        </div>
+                        <div class="timeline-achievements">
+                            <div class="achievement">
+                                <i class="fas fa-medal"></i>
+                                <span>Successfully helping someone in need</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-particles"></div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education" id="education">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-tag">Learning Path</div>
+                <h2 class="section-title">Education</h2>
+                <p class="section-subtitle">Academic foundation and continuous learning</p>
+            </div>
+            
+            <div class="education-content">
+                <div class="education-main" data-aos="fade-right" data-aos-delay="200">
+                    <!-- Primary Education -->
+                    <div class="education-card glass-card">
+                        <div class="education-header">
+                            <div class="education-icon">
+                                <i class="fas fa-university"></i>
+                            </div>
+                            <div class="education-meta">
+                                <span class="education-type">Bachelor's Degree</span>
+                                <span class="education-status current">Currently Studying</span>
+                            </div>
+                        </div>
+                        <div class="education-info">
+                            <h3 class="education-degree">Computer Science</h3>
+                            <h4 class="education-institution">Bina Nusantara University</h4>
+                            <div class="education-details">
+                                <div class="education-location">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Malang, Indonesia</span>
+                                </div>
+                                <div class="education-duration">
+                                    <i class="fas fa-calendar"></i>
+                                    <span>2021 - 2027 (Expected)</span>
+                                </div>
+                                <div class="education-gpa">
+                                    <i class="fas fa-star"></i>
+                                    <span>GPA: 3.9/4.0</span>
+                                </div>
+                            </div>
+                            <p class="education-description">
+                                Pursuing a comprehensive Computer Science degree with focus on 
+                                software development, algorithms, data structures, and system design. 
+                                Strong academic performance with hands-on experience in multiple programming languages.
+                            </p>
+                            <div class="education-courses">
+                                <h5>Key Coursework:</h5>
+                                <div class="course-list">
+                                    <span class="course-tag">Data Structures & Algorithms</span>
+                                    <span class="course-tag">Database Systems</span>
+                                    <span class="course-tag">Software Engineering</span>
+                                    <span class="course-tag">Web Development</span>
+                                    <span class="course-tag">Mobile App Development</span>
+                                    <span class="course-tag">Computer Networks</span>
+                                    <span class="course-tag">Operating Systems</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="education-side" data-aos="fade-left" data-aos-delay="400">
+                    <!-- Certifications -->
+                    <div class="education-section">
+                        <h3 class="section-subtitle">Certifications & Courses</h3>
+                        
+                        <div class="certification-item glass-card">
+                            <div class="cert-icon">
+                                <i class="fab fa-nvidia"></i>
+                            </div>
+                            <div class="cert-info">
+                                <h4>Fundamental Of Deep learning</h4>
+                                <p class="cert-issuer">Nvidia</p>
+                                <span class="cert-date">2024</span>
+                            </div>
+                            <div class="cert-badge">
+                                <i class="fas fa-certificate"></i>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Academic Achievements -->
+                    <div class="education-section">
+                        <h3 class="section-subtitle">Academic Achievements</h3>
+                        
+                        <div class="achievement-list">
+                            <div class="achievement-item">
+                                <div class="achievement-icon">
+                                    <i class="fas fa-trophy"></i>
+                                </div>
+                                <div class="achievement-text">
+                                    <h4>Duta Binusian</h4>
+                                    <p>Consistently maintained high GPA</p>
+                                </div>
+                            </div>
+                            
+                            <div class="achievement-item">
+                                <div class="achievement-icon">
+                                    <i class="fas fa-medal"></i>
+                                </div>
+                                <div class="achievement-text">
+                                    <h4>FYP Leader</h4>
+                                    <p>Leading University First Year Program</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Skills Progress -->
+                    <div class="education-section">
+                        <h3 class="section-subtitle">Learning Progress</h3>
+                        
+                        <div class="skill-progress-list">
+                            <div class="skill-progress-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Software Development</span>
+                                    <span class="skill-level">Advanced</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-progress-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Database Design</span>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 75%"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-progress-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Machine Learning</span>
+                                    <span class="skill-level">Beginner</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 60%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-particles"></div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-tag">My Work</div>
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Some of my recent work that showcase my skills</p>
+            </div>
+            
+            <div class="project-filters" data-aos="fade-up" data-aos-delay="200">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="web">Web Apps</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+            </div>
+            
+            <div class="projects-grid" data-aos="fade-up" data-aos-delay="400">
+                <div class="project-card glass-card" data-category="web" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <div class="project-bg-gradient"></div>
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="YOUR_PROJECT_1_LIVE_DEMO_URL" class="project-link" data-tooltip="Live Demo" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="YOUR_PROJECT_1_GITHUB_URL" class="project-link" data-tooltip="Source Code" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <div class="project-link project-expand" data-tooltip="Quick View">
+                                    <i class="fas fa-expand"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-status">
+                            <span class="status-badge">Featured</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-meta">
+                            <span class="project-type">Web Application</span>
+                            <span class="project-date">2024</span>
+                        </div>
+                        <h3 class="project-title">Modern E-Commerce Platform</h3>
+                        <p class="project-description">
+                            A full-stack e-commerce platform with advanced features including user authentication, 
+                            payment integration, real-time inventory, and admin dashboard.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">MongoDB</span>
+                            <span class="tag">Stripe</span>
+                        </div>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <i class="fas fa-star"></i>
+                                <span>4.9/5</span>
+                            </div>
+                            <div class="stat">
+                                <i class="fas fa-download"></i>
+                                <span>2.3k</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card glass-card" data-category="mobile" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <div class="project-bg-gradient"></div>
+                            <i class="fas fa-tasks"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="YOUR_PROJECT_2_LIVE_DEMO_URL" class="project-link" data-tooltip="Live Demo" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="YOUR_PROJECT_2_GITHUB_URL" class="project-link" data-tooltip="Source Code" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <div class="project-link project-expand" data-tooltip="Quick View">
+                                    <i class="fas fa-expand"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-meta">
+                            <span class="project-type">Mobile App</span>
+                            <span class="project-date">2024</span>
+                        </div>
+                        <h3 class="project-title">Smart Task Manager</h3>
+                        <p class="project-description">
+                            A responsive task management app with drag-and-drop functionality, 
+                            real-time collaboration, and AI-powered task prioritization.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Vue.js</span>
+                            <span class="tag">Express</span>
+                            <span class="tag">Socket.io</span>
+                            <span class="tag">PWA</span>
+                        </div>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <i class="fas fa-star"></i>
+                                <span>4.7/5</span>
+                            </div>
+                            <div class="stat">
+                                <i class="fas fa-users"></i>
+                                <span>1.8k</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card glass-card" data-category="web" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <div class="project-bg-gradient"></div>
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="YOUR_PROJECT_3_LIVE_DEMO_URL" class="project-link" data-tooltip="Live Demo" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="YOUR_PROJECT_3_GITHUB_URL" class="project-link" data-tooltip="Source Code" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <div class="project-link project-expand" data-tooltip="Quick View">
+                                    <i class="fas fa-expand"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-status">
+                            <span class="status-badge trending">Trending</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-meta">
+                            <span class="project-type">Dashboard</span>
+                            <span class="project-date">2024</span>
+                        </div>
+                        <h3 class="project-title">Analytics Dashboard</h3>
+                        <p class="project-description">
+                            A comprehensive analytics dashboard with interactive charts, 
+                            real-time data visualization, machine learning insights, and customizable widgets.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Angular</span>
+                            <span class="tag">D3.js</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">TensorFlow</span>
+                        </div>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <i class="fas fa-star"></i>
+                                <span>4.8/5</span>
+                            </div>
+                            <div class="stat">
+                                <i class="fas fa-eye"></i>
+                                <span>3.1k</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card glass-card" data-category="design" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <div class="project-bg-gradient"></div>
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="YOUR_PROJECT_4_LIVE_DEMO_URL" class="project-link" data-tooltip="Live Demo" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="YOUR_PROJECT_4_DESIGN_FILES_URL" class="project-link" data-tooltip="Design Files" target="_blank">
+                                    <i class="fab fa-figma"></i>
+                                </a>
+                                <div class="project-link project-expand" data-tooltip="Quick View">
+                                    <i class="fas fa-expand"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-meta">
+                            <span class="project-type">UI/UX Design</span>
+                            <span class="project-date">2024</span>
+                        </div>
+                        <h3 class="project-title">Brand Identity System</h3>
+                        <p class="project-description">
+                            Complete brand identity and design system for a tech startup, 
+                            including logo, color palette, typography, and component library.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Figma</span>
+                            <span class="tag">Adobe CS</span>
+                            <span class="tag">Branding</span>
+                            <span class="tag">UI Kit</span>
+                        </div>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <i class="fas fa-heart"></i>
+                                <span>892</span>
+                            </div>
+                            <div class="stat">
+                                <i class="fas fa-share"></i>
+                                <span>234</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="projects-cta" data-aos="fade-up" data-aos-delay="600">
+                <a href="https://github.com/YOUR_GITHUB_USERNAME?tab=repositories" class="btn btn-outline btn-large" target="_blank">
+                    <span class="btn-text">View All Projects</span>
+                    <span class="btn-icon">
+                        <i class="fas fa-arrow-right"></i>
+                    </span>
+                </a>
+            </div>
+        </div>
+        <div class="section-particles"></div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-tag">Let's Connect</div>
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Ready to bring your ideas to life? Let's start a conversation</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card glass-card">
+                        <div class="card-header">
+                            <h3>Let's talk about your project</h3>
+                            <p>I'm always excited to work on new projects and help bring creative ideas to life.</p>
+                        </div>
+                        
+                        <div class="contact-methods">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <h4>Email</h4>
+                                    <p>flourencia.yuwono@binus.ac.id</p>
+                                    <a href="mailto:flourencia.yuwono@binus.ac.id" class="contact-link">Send Email</a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <h4>Phone</h4>
+                                    <p>+62 895-3417-4098-8</p>
+                                    <a href="tel:+62895341740988" class="contact-link">Call Now</a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <h4>Location</h4>
+                                    <p>Malang, Indonesia</p>
+                                    <span class="contact-link">Available Worldwide</span>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-calendar"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <h4>Availability</h4>
+                                    <p>Mon - Sat, 9AM - 6PM</p>
+                                    <span class="contact-link availability-status online">Online Now</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-social">
+                            <h4>Follow Me</h4>
+                            <div class="social-links">
+                                <a href="https://www.linkedin.com/in/flourencia-yuwono-775554289" class="social-link" data-tooltip="LinkedIn" target="_blank">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="https://github.com/Flourenciacoy" class="social-link" data-tooltip="GitHub" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://www.instagram.com/flouclsta_?igsh=ZXM1b3BlMHA5YXB3" class="social-link" data-tooltip="Instagram" target="_blank">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <form class="contact-form glass-card" id="contact-form">
+                        <div class="form-header">
+                            <h3>Let's Work Together</h3>
+                            <p>Interested in hiring me or discussing a collaboration? I'd love to hear from you!</p>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Company/Your Name</label>
+                                <div class="input-wrapper">
+                                    <input type="text" id="name" name="name" placeholder="Your Company or Full Name" required>
+                                    <span class="input-highlight"></span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Business Email</label>
+                                <div class="input-wrapper">
+                                    <input type="email" id="email" name="email" placeholder="your.email@company.com" required>
+                                    <span class="input-highlight"></span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="subject">Inquiry Type</label>
+                                <div class="input-wrapper">
+                                    <select id="subject" name="subject" required>
+                                        <option value="">Select inquiry type</option>
+                                        <option value="Job Opportunity">Job Opportunity</option>
+                                        <option value="Freelance Project">Freelance Project</option>
+                                        <option value="Collaboration">Collaboration</option>
+                                        <option value="Consultation">Consultation</option>
+                                        <option value="Other">Other</option>
+                                    </select>
+                                    <span class="input-highlight"></span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="position">Position Type</label>
+                                <div class="input-wrapper">
+                                    <select id="position" name="position">
+                                        <option value="">Select position type</option>
+                                        <option value="Full-time Position">Full-time Position</option>
+                                        <option value="Part-time Position">Part-time Position</option>
+                                        <option value="Contract/Freelance">Contract/Freelance</option>
+                                        <option value="Internship">Internship</option>
+                                        <option value="Remote Work">Remote Work</option>
+                                        <option value="Hybrid Work">Hybrid Work</option>
+                                        <option value="On-site Work">On-site Work</option>
+                                    </select>
+                                    <span class="input-highlight"></span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="salary">Salary Range (Annual)</label>
+                                <div class="input-wrapper">
+                                    <select id="salary" name="salary">
+                                        <option value="">Select salary range</option>
+                                        <option value="Rp 50,000,000 - Rp 100,000,000">Rp 50,000,000 - Rp 100,000,000</option>
+                                        <option value="Rp 100,000,000 - Rp 200,000,000">Rp 100,000,000 - Rp 200,000,000</option>
+                                        <option value="Rp 200,000,000 - Rp 400,000,000">Rp 200,000,000 - Rp 400,000,000</option>
+                                        <option value="Rp 400,000,000 - Rp 800,000,000">Rp 400,000,000 - Rp 800,000,000</option>
+                                        <option value="Rp 800,000,000+">Rp 800,000,000+</option>
+                                        <option value="Negotiable">Negotiable</option>
+                                    </select>
+                                    <span class="input-highlight"></span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Project Details / Job Description</label>
+                            <div class="input-wrapper">
+                                <textarea id="message" name="message" rows="5" placeholder="Please describe the project requirements, job position, timeline, or any specific details about your inquiry..." required></textarea>
+                                <span class="input-highlight"></span>
+                            </div>
+                        </div>
+                        
+                        <div class="form-actions">
+                            <button type="button" class="btn btn-primary btn-large" id="submit-btn">
+                                <span class="btn-text">Send Message</span>
+                                <span class="btn-icon">
+                                    <i class="fas fa-paper-plane"></i>
+                                </span>
+                                <div class="btn-loading">
+                                    <i class="fas fa-spinner fa-spin"></i>
+                                </div>
+                            </button>
+                        </div>
+                        
+                        <div class="form-success" id="form-success">
+                            <i class="fas fa-check-circle"></i>
+                            <h4>Thank You for Your Interest!</h4>
+                            <p>I've received your inquiry and will respond within 24 hours. Looking forward to discussing this opportunity with you.</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="section-particles"></div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-main" data-aos="fade-up">
+                    <div class="footer-brand">
+                        <div class="footer-logo">
+                            <span class="logo-icon">✦</span>
+                            <span class="logo-text">Portfolio</span>
+                        </div>
+                        <p class="footer-description">
+                            Creating digital experiences that make a difference. 
+                            Let's build something amazing together.
+                        </p>
+                        <div class="footer-social">
+                            <a href="https://www.linkedin.com/in/flourencia-yuwono-775554289" class="social-link" data-tooltip="LinkedIn" target="_blank">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://github.com/Flourenciacoy" class="social-link" data-tooltip="GitHub" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.instagram.com/flouclsta_?igsh=ZXM1b3BlMHA5YXB3" class="social-link" data-tooltip="Instagram" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-links">
+                        <div class="footer-column">
+                            <h4>Navigation</h4>
+                            <ul>
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#experience">Experience</a></li>
+                                <li><a href="#education">Education</a></li>
+                                <li><a href="#projects">Projects</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-column">
+                            <h4>Services</h4>
+                            <ul>
+                                <li><a href="#">Web Development</a></li>
+                                <li><a href="#">UI/UX Design</a></li>
+                                <li><a href="#">Consulting</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-column">
+                            <h4>Contact Info</h4>
+                            <ul>
+                                <li>
+                                    <i class="fas fa-envelope"></i>
+                                    flourencia.yuwono@binus.ac.id
+                                </li>
+                                <li>
+                                    <i class="fas fa-phone"></i>
+                                    +62 895-3417-4098-8
+                                </li>
+                                <li>
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    Malang, indonesia
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer-bottom" data-aos="fade-up" data-aos-delay="200">
+                    <div class="footer-copyright">
+                        <p>&copy; 2025 Flourencia. All rights reserved.</p>
+                        <p>Crafted with <i class="fas fa-heart"></i> and lots of coffee</p>
+                    </div>
+                    <div class="footer-actions">
+                        <a href="#home" class="back-to-top">
+                            <i class="fas fa-arrow-up"></i>
+                            <span>Back to Top</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-particles"></div>
+    </footer>
+
+    <!-- Instant content visibility -->
+    <script>
+        // Show content immediately
+        document.addEventListener('DOMContentLoaded', () => {
+            document.body.classList.add('loaded');
+        });
+        
+        // Load heavy scripts after content is visible
+        setTimeout(() => {
+            const aosScript = document.createElement('script');
+            aosScript.src = 'https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js';
+            aosScript.onload = () => {
+                if (typeof AOS !== 'undefined') {
+                    AOS.init({ duration: 400, once: true, disable: 'mobile' });
+                }
+            };
+            document.head.appendChild(aosScript);
+        }, 200);
+    </script>
+    <script src="js/script.js" async></script>
+    
+    <!-- Fallback for no JavaScript -->
+    <noscript>
+        <style>
+            body { opacity: 1 !important; }
+            [data-aos] { opacity: 1 !important; transform: none !important; }
+        </style>
+    </noscript>
+</body>
+</html>
