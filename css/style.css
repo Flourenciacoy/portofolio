@@ -307,11 +307,6 @@ h6 { font-size: var(--font-size-lg); }
     100% { transform: translateX(100%); }
 }
 
-@keyframes float {
-    0%, 100% { transform: translate3d(0, 0px, 0) scale(1); opacity: 0.7; }
-    50% { transform: translate3d(0, -20px, 0) scale(1.1); opacity: 1; }
-}
-
 @keyframes pulse {
     0%, 100% { opacity: 1; }
     50% { opacity: 0.7; }
@@ -706,7 +701,6 @@ h6 { font-size: var(--font-size-lg); }
     border-radius: 50%;
     overflow: hidden;
     box-shadow: var(--shadow-2xl);
-    animation: float 6s ease-in-out infinite;
 }
 
 .profile-image {
@@ -715,11 +709,6 @@ h6 { font-size: var(--font-size-lg); }
     object-fit: cover;
     object-position: center;
     border-radius: 50%;
-    transition: transform 0.3s ease;
-}
-
-.profile-image:hover {
-    transform: scale(1.05);
 }
 
 .image-placeholder {
@@ -741,23 +730,7 @@ h6 { font-size: var(--font-size-lg); }
     opacity: 0.9;
 }
 
-.profile-glow {
-    position: absolute;
-    top: -20px;
-    left: -20px;
-    right: -20px;
-    bottom: -20px;
-    background: var(--gradient-primary);
-    border-radius: 50%;
-    opacity: 0.3;
-    animation: pulse-glow 3s ease-in-out infinite;
-    z-index: -1;
-}
 
-@keyframes pulse-glow {
-    0%, 100% { transform: scale(1); opacity: 0.3; }
-    50% { transform: scale(1.05); opacity: 0.6; }
-}
 
 .floating-elements {
     position: absolute;
